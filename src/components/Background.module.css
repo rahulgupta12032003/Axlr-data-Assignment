@@ -1,0 +1,62 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 871px;
+  background: #efefef;
+}
+
+.eclipse1 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 197px;
+  height: 197px;
+  left: 0px;
+  top: 390px;
+
+  opacity: 0.2;
+  border: 40px solid #50bfa5;
+  border-radius: 100px;
+}
+
+.eclipse2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 197px;
+  height: 197px;
+  left: 244px;
+  top: -98px;
+
+  opacity: 0.2;
+  border: 40px solid #6dd400;
+  border-radius: 100px;
+}
+
+.eclipse3 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 197px;
+  height: 197px;
+  left: 1243px;
+  top: 337px;
+
+  opacity: 0.2;
+  border: 40px solid #878787;
+  border-radius: 100px;
+}
+
+.eclipse4 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 197px;
+  height: 197px;
+  left: 392px;
+  top: 773px;
+
+  opacity: 0.2;
+  border: 40px solid #50bfa5;
+  border-radius: 100px;
+}
