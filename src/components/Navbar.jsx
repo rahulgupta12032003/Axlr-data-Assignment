@@ -17,11 +17,11 @@ function Navbar() {
   const currentUser = userState.currentUser;
 
   const handleLocation = () => {
-    window.location.href = "/location";
+    navigate("/distance")
   };
 
   const handleCategories = () => {
-    window.location.href = "/";
+    navigate("/")
   };
 
   const handleLogout = () => {

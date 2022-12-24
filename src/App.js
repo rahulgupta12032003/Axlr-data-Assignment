@@ -2,7 +2,7 @@ import "./App.css";
 import Login from "./Pages/Login";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
-import Location from "./Pages/Distance";
+import Distance from "./Pages/Distance";
 // import Background from './components/Background';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/location" element={<Location />} />
+        <Route path="/distance" element={<Distance />} />
       </Routes>
     </div>
   );
